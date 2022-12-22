@@ -1,0 +1,26 @@
+{
+  "name": "async_landing",
+  "version": "1.0.0",
+  "description": "A landing page with asyncronism tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mgobeaalcoba/async_landing.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Asincronismo",
+    "API",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mgobeaalcoba/async_landing/issues"
+  },
+  "homepage": "https://github.com/Mgobeaalcoba/async_landing#readme"
+}

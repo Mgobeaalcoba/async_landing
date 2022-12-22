@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Mgobeaalcoba/async_landing/issues"
   },
-  "homepage": "https://github.com/Mgobeaalcoba/async_landing#readme"
+  "homepage": "https://github.com/Mgobeaalcoba/async_landing#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }

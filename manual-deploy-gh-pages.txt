@@ -1,0 +1,19 @@
+Instalar en proyecto gh-pages con el siguiente comando:
+
+npm install gh-pages --save-dev
+
+Luego modificar (o agregar) el script del package.json de la siguiente forma: 
+
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+
+Para ello debe estar el index.html dentro de src. 
+
+Hay que verificar que la logica (.JS) tmb esté dentro de SRC sino, por ejemplo, no carga las API´s. Porque no se ejecuta la lógica. 
+
+Luego correr el comando 
+
+npm run deploy 
+
+Con esto estará deployado en github pages con una rama nueva llamada gh-pages. 

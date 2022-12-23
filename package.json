@@ -4,7 +4,7 @@
   "description": "A landing page with asyncronism tech",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/Mgobeaalcoba/async_landing#readme",
   "dependencies": {
     "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
